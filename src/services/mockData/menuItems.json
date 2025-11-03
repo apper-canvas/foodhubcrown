@@ -1,0 +1,138 @@
+[
+  {
+    "Id": 1,
+    "restaurantId": "1",
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with fresh mozzarella, tomatoes, and basil",
+    "price": 14.99,
+    "category": "Pizza",
+    "imageUrl": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=300",
+    "isVeg": true,
+    "customizations": [
+      {"type": "size", "options": ["Small (+$0)", "Medium (+$3)", "Large (+$6)"]},
+      {"type": "crust", "options": ["Thin", "Thick", "Stuffed (+$2)"]}
+    ]
+  },
+  {
+    "Id": 2,
+    "restaurantId": "1",
+    "name": "Pepperoni Pizza",
+    "description": "Traditional pepperoni pizza with mozzarella cheese",
+    "price": 16.99,
+    "category": "Pizza",
+    "imageUrl": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=300",
+    "isVeg": false,
+    "customizations": [
+      {"type": "size", "options": ["Small (+$0)", "Medium (+$3)", "Large (+$6)"]},
+      {"type": "crust", "options": ["Thin", "Thick", "Stuffed (+$2)"]}
+    ]
+  },
+  {
+    "Id": 3,
+    "restaurantId": "1",
+    "name": "Caesar Salad",
+    "description": "Fresh romaine lettuce with parmesan and croutons",
+    "price": 9.99,
+    "category": "Salads",
+    "imageUrl": "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=300",
+    "isVeg": true,
+    "customizations": [
+      {"type": "protein", "options": ["None", "Grilled Chicken (+$3)", "Shrimp (+$4)"]}
+    ]
+  },
+  {
+    "Id": 4,
+    "restaurantId": "2",
+    "name": "Classic Cheeseburger",
+    "description": "Beef patty with cheese, lettuce, tomato, and special sauce",
+    "price": 12.99,
+    "category": "Burgers",
+    "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=300",
+    "isVeg": false,
+    "customizations": [
+      {"type": "patty", "options": ["Single", "Double (+$3)", "Triple (+$6)"]},
+      {"type": "cheese", "options": ["American", "Cheddar", "Swiss"]}
+    ]
+  },
+  {
+    "Id": 5,
+    "restaurantId": "2",
+    "name": "Chicken Wings",
+    "description": "Crispy chicken wings with your choice of sauce",
+    "price": 11.99,
+    "category": "Appetizers",
+    "imageUrl": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=300",
+    "isVeg": false,
+    "customizations": [
+      {"type": "sauce", "options": ["Buffalo", "BBQ", "Honey Mustard", "Ranch"]},
+      {"type": "quantity", "options": ["6 pieces", "12 pieces (+$6)", "18 pieces (+$12)"]}
+    ]
+  },
+  {
+    "Id": 6,
+    "restaurantId": "3",
+    "name": "Salmon Nigiri",
+    "description": "Fresh salmon over seasoned sushi rice",
+    "price": 8.99,
+    "category": "Nigiri",
+    "imageUrl": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=300",
+    "isVeg": false,
+    "customizations": [
+      {"type": "pieces", "options": ["2 pieces", "4 pieces (+$8)", "6 pieces (+$16)"]}
+    ]
+  },
+  {
+    "Id": 7,
+    "restaurantId": "3",
+    "name": "California Roll",
+    "description": "Crab, avocado, and cucumber roll with sesame seeds",
+    "price": 12.99,
+    "category": "Rolls",
+    "imageUrl": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=300",
+    "isVeg": false,
+    "customizations": [
+      {"type": "style", "options": ["Regular", "Inside-out", "Hand roll"]}
+    ]
+  },
+  {
+    "Id": 8,
+    "restaurantId": "4",
+    "name": "Street Tacos",
+    "description": "Three authentic street tacos with cilantro and onions",
+    "price": 9.99,
+    "category": "Tacos",
+    "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300",
+    "isVeg": false,
+    "customizations": [
+      {"type": "meat", "options": ["Carnitas", "Carne Asada", "Chicken", "Fish"]},
+      {"type": "spice", "options": ["Mild", "Medium", "Spicy", "Extra Hot"]}
+    ]
+  },
+  {
+    "Id": 9,
+    "restaurantId": "5",
+    "name": "Pad Thai",
+    "description": "Traditional Thai noodles with peanuts and lime",
+    "price": 13.99,
+    "category": "Noodles",
+    "imageUrl": "https://images.unsplash.com/photo-1559314809-0f31657def5e?w=300",
+    "isVeg": true,
+    "customizations": [
+      {"type": "protein", "options": ["Tofu", "Chicken (+$2)", "Shrimp (+$3)", "Beef (+$3)"]},
+      {"type": "spice", "options": ["Mild", "Medium", "Spicy"]}
+    ]
+  },
+  {
+    "Id": 10,
+    "restaurantId": "6",
+    "name": "Greek Salad",
+    "description": "Fresh vegetables with feta cheese and olive oil",
+    "price": 11.99,
+    "category": "Salads",
+    "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300",
+    "isVeg": true,
+    "customizations": [
+      {"type": "extras", "options": ["None", "Extra Feta (+$2)", "Olives (+$1)", "Both (+$3)"]}
+    ]
+  }
+]

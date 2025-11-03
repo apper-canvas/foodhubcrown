@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "restaurantId": "1",
+    "items": [
+      {
+        "menuItem": {
+          "Id": 1,
+          "name": "Margherita Pizza",
+          "price": 14.99
+        },
+        "quantity": 2,
+        "customizations": {"size": "Large (+$6)", "crust": "Thin"},
+        "specialInstructions": "Extra cheese please",
+        "totalPrice": 41.98
+      }
+    ],
+    "totalAmount": 41.98,
+    "deliveryAddress": "123 Main St, Apt 4B",
+    "status": "delivered",
+    "placedAt": "2024-01-15T18:30:00Z",
+    "estimatedDelivery": "2024-01-15T19:15:00Z"
+  },
+  {
+    "Id": 2,
+    "restaurantId": "2",
+    "items": [
+      {
+        "menuItem": {
+          "Id": 4,
+          "name": "Classic Cheeseburger",
+          "price": 12.99
+        },
+        "quantity": 1,
+        "customizations": {"patty": "Double (+$3)", "cheese": "Cheddar"},
+        "specialInstructions": "No pickles",
+        "totalPrice": 15.99
+      }
+    ],
+    "totalAmount": 15.99,
+    "deliveryAddress": "456 Oak Ave, Unit 2",
+    "status": "preparing",
+    "placedAt": "2024-01-15T19:45:00Z",
+    "estimatedDelivery": "2024-01-15T20:30:00Z"
+  },
+  {
+    "Id": 3,
+    "restaurantId": "3",
+    "items": [
+      {
+        "menuItem": {
+          "Id": 6,
+          "name": "Salmon Nigiri",
+          "price": 8.99
+        },
+        "quantity": 1,
+        "customizations": {"pieces": "4 pieces (+$8)"},
+        "specialInstructions": "",
+        "totalPrice": 16.99
+      },
+      {
+        "menuItem": {
+          "Id": 7,
+          "name": "California Roll",
+          "price": 12.99
+        },
+        "quantity": 1,
+        "customizations": {"style": "Inside-out"},
+        "specialInstructions": "",
+        "totalPrice": 12.99
+      }
+    ],
+    "totalAmount": 29.98,
+    "deliveryAddress": "789 Pine St, Floor 3",
+    "status": "out_for_delivery",
+    "placedAt": "2024-01-15T20:00:00Z",
+    "estimatedDelivery": "2024-01-15T20:45:00Z"
+  }
+]

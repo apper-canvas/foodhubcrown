@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Toast Customization */
+@import 'react-toastify/dist/ReactToastify.css';
+
+.Toastify__toast-container {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  min-height: 60px;
+}
+
+.Toastify__toast--success {
+  background: #48A14D;
+}
+
+.Toastify__toast--error {
+  background: #D32F2F;
+}
+
+.Toastify__toast--warning {
+  background: #FFB800;
+}
+
+.Toastify__toast--info {
+  background: #2196F3;
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8F8F8;
+  }
+  
+  .font-display {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E23744;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c12a36;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-out;
+}
+
+/* Cart bounce animation */
+@keyframes cartBounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.cart-bounce {
+  animation: cartBounce 0.6s ease-in-out;
+}

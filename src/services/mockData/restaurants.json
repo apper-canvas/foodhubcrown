@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "Pizza Palace",
+    "cuisines": ["Italian", "Pizza"],
+    "rating": 4.5,
+    "reviewCount": 1234,
+    "deliveryTime": "25-30 mins",
+    "priceRange": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=400",
+    "isOpen": true,
+    "location": "Downtown"
+  },
+  {
+    "Id": 2,
+    "name": "Burger Barn",
+    "cuisines": ["American", "Fast Food"],
+    "rating": 4.2,
+    "reviewCount": 856,
+    "deliveryTime": "20-25 mins",
+    "priceRange": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400",
+    "isOpen": true,
+    "location": "Midtown"
+  },
+  {
+    "Id": 3,
+    "name": "Sushi Zen",
+    "cuisines": ["Japanese", "Sushi"],
+    "rating": 4.8,
+    "reviewCount": 567,
+    "deliveryTime": "35-40 mins",
+    "priceRange": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400",
+    "isOpen": true,
+    "location": "Uptown"
+  },
+  {
+    "Id": 4,
+    "name": "Taco Fiesta",
+    "cuisines": ["Mexican", "Street Food"],
+    "rating": 4.3,
+    "reviewCount": 923,
+    "deliveryTime": "20-30 mins",
+    "priceRange": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400",
+    "isOpen": true,
+    "location": "South Side"
+  },
+  {
+    "Id": 5,
+    "name": "Thai Garden",
+    "cuisines": ["Thai", "Asian"],
+    "rating": 4.6,
+    "reviewCount": 445,
+    "deliveryTime": "30-35 mins",
+    "priceRange": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1559314809-0f31657def5e?w=400",
+    "isOpen": false,
+    "location": "East Side"
+  },
+  {
+    "Id": 6,
+    "name": "Mediterranean Delight",
+    "cuisines": ["Mediterranean", "Healthy"],
+    "rating": 4.4,
+    "reviewCount": 678,
+    "deliveryTime": "25-35 mins",
+    "priceRange": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400",
+    "isOpen": true,
+    "location": "West End"
+  },
+  {
+    "Id": 7,
+    "name": "Indian Spice House",
+    "cuisines": ["Indian", "Curry"],
+    "rating": 4.7,
+    "reviewCount": 789,
+    "deliveryTime": "30-40 mins",
+    "priceRange": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400",
+    "isOpen": true,
+    "location": "North Plaza"
+  },
+  {
+    "Id": 8,
+    "name": "Healthy Bowl Co",
+    "cuisines": ["Healthy", "Salads"],
+    "rating": 4.1,
+    "reviewCount": 234,
+    "deliveryTime": "15-25 mins",
+    "priceRange": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+    "isOpen": true,
+    "location": "Business District"
+  },
+  {
+    "Id": 9,
+    "name": "BBQ Masters",
+    "cuisines": ["BBQ", "American"],
+    "rating": 4.5,
+    "reviewCount": 1012,
+    "deliveryTime": "35-45 mins",
+    "priceRange": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+    "isOpen": true,
+    "location": "Suburbs"
+  },
+  {
+    "Id": 10,
+    "name": "Coffee & Pastries",
+    "cuisines": ["Coffee", "Bakery"],
+    "rating": 4.0,
+    "reviewCount": 345,
+    "deliveryTime": "10-20 mins",
+    "priceRange": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400",
+    "isOpen": true,
+    "location": "City Center"
+  }
+]
